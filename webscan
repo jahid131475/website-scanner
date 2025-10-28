@@ -1,0 +1,22 @@
+usage 
+	 ./webscan example.com
+	./webscan http://target-site.com
+
+Example Output
+	
+	[+] Starting scan for: http://example.com
+[+] Target Host: example.com
+
+[PHASE 1] Port Scanning...
+  [+] Open Port: 80 - HTTP
+  [+] Open Port: 443 - HTTPS
+
+SCAN REPORT FOR: http://example.com
+==================================================
+[OPEN PORTS]
+  Port 80 - HTTP
+  Port 443 - HTTPS
+
+[VULNERABILITIES]
+  [!] Potential SQL Injection in parameters
+  [!] Admin panel /admin found
